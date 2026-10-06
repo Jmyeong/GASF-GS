@@ -1,0 +1,25 @@
+# Local datasets, results, caches, and reference comparisons
+data/
+output/
+.cache/
+.validation/
+
+# Python and native builds
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+*.egg-info/
+build/
+dist/
+.venv/
+.ruff_cache/
+
+# Model weights and credentials
+*.pth
+*.pt
+.env
+.env.*
+*token*.txt
+.DS_Store
